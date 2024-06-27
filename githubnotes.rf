@@ -1,0 +1,37 @@
+git status         -> check the staus of your repo 
+git init           -> this command is used to intialize the repo 
+git add [filename] -> if you want to add only one file or the specific file than use this 
+git add . / git add -A  / git add --all
+this means all the file folder image or anything which present in the main folder 
+git commit -m "write your comment" -> comment on your repo which will display to the other when they saw your code 
+
+git clone "repo-url" -> with the help of this command you can clone any repo 
+git pull -> fetch the new files from the repo 
+rm -rf .git -> this command is used to delete the existing repo 
+git push - directorly send to the the current repo 
+
+
+
+git status: Checks the status of your repository, showing which files are modified, staged for commit, or not tracked by Git.
+
+git init: Initializes a new Git repository in the current directory, creating a hidden .git folder that tracks changes.
+
+git add [filename]: Adds specific file(s) to the staging area. For example, git add index.html adds only the index.html file.
+
+git add . / git add -A / git add --all: These commands add all changes in the current directory and its subdirectories to the staging area. They include new files, modified files, and deleted files.
+
+git add .: Adds all changes except files that have been deleted.
+git add -A or git add --all: Adds all changes, including deleted files.
+git commit -m "write your comment": Commits the staged changes to the repository with a descriptive message ("write your comment"). This creates a new commit that records the changes made since the last commit.
+
+git clone "repo-url": Clones a remote repository located at "repo-url" to your local machine. This creates a new directory containing all the files and commit history from the remote repository.
+
+git pull: Fetches the latest changes from the remote repository and merges them into your current branch. It updates your local repository with any new commits from the remote repository.
+
+rm -rf .git: Deletes the .git directory in the current directory. This effectively removes the Git version control from the current directory and its subdirectories, including all history and configuration.
+
+git push - directorly send to the the current repo 
+
+
+git push: Pushes commits from your local repository to the remote repository.
+By default, git push sends changes from the current local branch to the corresponding branch on the remote repository specified during the clone or by setting upstream branches.
