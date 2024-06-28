@@ -60,4 +60,18 @@ git stash: Temporarily stores changes that are not ready to be committed.
 
 git tag [tag-name]: Creates a lightweight tag at the current commit.
 
+                           Used in CMD 
+                           ____________
+mkdir -> used to create new folder 
+mkdir folderName
 
+rmdir -> used to delete folder
+rmdir folderName
+
+type null > fileName -> used to create file 
+del fileName -> this command is used to delete fileName
+
+
+ cd -> with the help of this command you can go to any folder 
+ cd .. -> with the helo of this command we go out side the folder 
+ 
