@@ -32,6 +32,32 @@ rm -rf .git: Deletes the .git directory in the current directory. This effective
 
 git push - directorly send to the the current repo 
 
+git log: Displays a log of commits, showing commit IDs, authors, dates, and messages.
 
-git push: Pushes commits from your local repository to the remote repository.
-By default, git push sends changes from the current local branch to the corresponding branch on the remote repository specified during the clone or by setting upstream branches.
+git branch: Lists all local branches in the repository.
+
+git branch [branch-name]: Creates a new branch with the specified name.
+
+git checkout [branch-name]: Switches to the specified branch.
+
+git merge [branch-name]: Merges changes from the specified branch into the current branch.
+
+git pull: Fetches changes from the remote repository and merges them into the current branch.
+
+git push: Pushes commits from the local repository to the remote repository.
+
+git remote -v: Lists all remote repositories and their URLs.
+
+git diff: Shows the difference between the working directory and the staging area.
+
+git diff --cached: Shows the difference between the staging area and the last commit.
+
+git reset [file]: Unstages the specified file(s) from the staging area.
+
+git reset --hard: Resets the working directory and staging area to match the last commit.
+
+git stash: Temporarily stores changes that are not ready to be committed.
+
+git tag [tag-name]: Creates a lightweight tag at the current commit.
+
+
